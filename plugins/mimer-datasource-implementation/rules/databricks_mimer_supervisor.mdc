@@ -1,0 +1,30 @@
+---
+description: Validates compatibility between load scripts and table definitions
+alwaysApply: true
+---
+
+When generating or modifying:
+- ETL/load scripts
+- SQL table definitions
+- Databricks schemas
+- Data models
+
+You must verify compatibility between:
+1. Source data structure
+2. Transformation logic
+3. Destination table schema
+
+Validation requirements:
+- All inserted columns must exist in target tables
+- Data types must be compatible
+- Nullable/non-nullable constraints must be respected
+- Primary/business keys must align with merge/upsert logic
+- Partition columns must exist in both script and table
+- Naming conventions must match exactly
+- Incremental load logic must align with table design
+- Generated SQL must be executable without schema mismatch
+
+Before finalizing:
+- Perform a schema-to-load compatibility review
+- Explicitly identify mismatches or assumptions
+- Refuse to finalize inconsistent implementations
