@@ -1,0 +1,10 @@
+{
+  "name": "mimer-datasource-implementation",
+  "description": "TEST Mimer Datasource development tools",
+  "version": "0.1.0",
+  "author": { "name": "Lennart Meelberg-Lange" },
+   "repository": "https://github.com/LmlangeServier/Test",
+   "category": "data-engineering-tools",
+   "skills": "./skills/"
+   "rules": "./rules/"
+}
