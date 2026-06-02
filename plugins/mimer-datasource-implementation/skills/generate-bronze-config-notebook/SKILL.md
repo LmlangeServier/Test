@@ -1,6 +1,7 @@
 ---
-name: my-skill
-description: Short description of what this skill does and when to use it.
+name: accessibility-auditing
+description: Use Cursor's browser aria snapshots to audit a page for accessibility issues — missing labels, broken tab order, contrast, and ARIA misuse.
+user-invocable: true
 ---
 
 # My Skill
