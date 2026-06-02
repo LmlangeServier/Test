@@ -1,0 +1,18 @@
+{
+  "name": "development-data Engineering-plugins -TEST",
+  "owner": {
+    "name": "Symphogen Servier - TEST",
+    "email": "lennart.meelberglange@servier.com"
+  },
+  "metadata": {
+    "description": "Plugins for Development & Data Engineering in Sympogen, Servier",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "mimer-datasource-implementation",
+      "source": "./plugins/mimer-datasource-implementation",
+      "description": "Mimer Datasource development tools."
+    }
+  ]
+}
